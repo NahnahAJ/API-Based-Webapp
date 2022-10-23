@@ -1,0 +1,161 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Josefin+Sans:ital,wght@0,400;1,300&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.img {
+  border-radius: 60px;
+  padding: 1rem;
+}
+
+.img:hover {
+  background-color: rgba(0, 0, 0, 0.234);
+  padding: 1rem;
+}
+
+.nav-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a img {
+  margin: -3rem;
+}
+
+.name {
+  inline-size: 150px;
+}
+
+#movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.items {
+  font-size: 36px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  width: 100%;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 3rem;
+  align-self: flex-end;
+}
+
+#counter {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive;
+  width: 100%;
+  overflow: hidden;
+  animation: slide-left 8s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 50%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 105%;
+  }
+}
+
+.show {
+  display: block;
+  left: 0;
+  overflow: auto;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+}
+
+.hide {
+  display: none;
+}
+
+.modalStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.properties {
+  display: grid;
+  grid-template-columns: repeat(2, 10rem);
+  gap: 1rem;
+}
+
+.form-style {
+  width: 30rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.commentStyle {
+  list-style: none;
+  border: 1px solid #fff;
+  margin: 1rem;
+}
+
+.displayComments {
+  border: 2px solid black;
+  background-color: rgba(240, 248, 255, 0.5);
+}

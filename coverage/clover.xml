@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1666474645292" clover="3.2.0">
+  <project timestamp="1666474645292" name="All files">
+    <metrics statements="11" coveredstatements="9" conditionals="6" coveredconditionals="1" methods="2" coveredmethods="1" elements="19" coveredelements="11" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
+    <file name="commentCounter.js" path="/home/nahnah/Documents/MODULE 2/API - Based WebApp/kanban-board-project/src/modules/commentCounter.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="4" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+    </file>
+    <file name="items-counter.js" path="/home/nahnah/Documents/MODULE 2/API - Based WebApp/kanban-board-project/src/modules/items-counter.js">
+      <metrics statements="3" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+    </file>
+  </project>
+</coverage>
